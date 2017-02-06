@@ -1,0 +1,97 @@
+.container {
+  height: 80px;
+  overflow: hidden;
+}
+
+.range {
+  width: 200px;
+}
+
+.range span {
+  height: 20px;
+  display: inline-block;
+  width: calc(100% / 6);
+}
+
+.range:before {
+  content: "Stupid";
+  display: inline-block;
+  position: absolute;
+  margin-top: -22px;
+  font-size: 0.9em;
+}
+
+.range:after {
+  content: "Clever";
+  display: inline-block;
+  position: absolute;
+  margin-top: -22px;
+  width: 40px;
+  margin-left: -40px;
+  font-size: 0.9em;
+}
+
+.helpText {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.slider {
+  width: 200px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background: gray;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.stats {
+  float: left;
+  width: 120px;
+  font-size: 1em;
+  margin-left: 30px;
+  border-left: 1px solid #dedede;
+  padding-left: 30px;
+}
+
+.settings {
+  float: left;
+}
+
+.forwarded .icon {
+  background: #F84138;
+}
+
+.ignored .icon {
+  background: #a1d99b;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 0.9em;
+  position: absolute;
+}
+
+.description {
+  font-size: 1em;
+  float: right;
+  width: 450px;
+  margin-left: 440px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.button {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.description p {
+  margin: 0;
+  padding: 0;
+}

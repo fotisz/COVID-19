@@ -1,0 +1,11 @@
+.forwarded {
+  fill: #F84138;
+}
+
+.ignored {
+  fill: #a1d99b;
+}
+
+.node {
+  cursor: pointer;
+}
