@@ -40,22 +40,24 @@ export default function Settings({
           step={ 0.1 }
         />
         <div className={ styles.helpText }>
-          Avarage consciousness (%{ avarageConsciousness * 100 })
+          Consciousness (%{ avarageConsciousness * 100 })
         </div>
       </div>
-      <div className={ styles.stats }>
-        <div className={ styles.ignored }>
-          <span className={ styles.icon }></span>
-          <span className={ styles.info }>Ignored (%{ ignored })</span>
+      { forwarded > 0 && (
+        <div className={ styles.stats }>
+          <div className={ styles.ignored }>
+            <span className={ styles.icon }></span>
+            <span className={ styles.info }>Ignored (%{ ignored })</span>
+          </div>
+          <div className={ styles.forwarded }>
+            <span className={ styles.icon }></span>
+            <span className={ styles.info }>Forwarded (%{ forwarded })</span>
+          </div>
         </div>
-        <div className={ styles.forwarded }>
-          <span className={ styles.icon }></span>
-          <span className={ styles.info }>Forwarded (%{ forwarded })</span>
-        </div>
-      </div>
+        ) }
       <div className={ styles.controllers }>
         <div className={ styles.description }>
-          <p>Click a node to start broadcasting a disinformation.</p>
+          <p>Click on a node to spread disinformation.</p>
           <input
             className={ styles.button }
             type={ 'submit' }

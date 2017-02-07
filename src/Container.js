@@ -47,6 +47,12 @@ export default class App extends Component {
       nodes: graph.nodes.map(({ label }) => ({
         id: label,
         state: IDLE,
+        size: graph.edges.filter(
+          ({ source, target }) => (
+            graph.nodes[source].label === label ||
+            graph.nodes[target].label === label
+          )
+        ).length,
         consciousness: randomConsciousness(avarageConsciousness),
       })),
       edges: graph.edges.map(({ source, target }) => ({

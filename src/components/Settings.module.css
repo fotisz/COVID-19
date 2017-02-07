@@ -14,7 +14,7 @@
 }
 
 .range:before {
-  content: "Stupid";
+  content: "Unaware";
   display: inline-block;
   position: absolute;
   margin-top: -22px;
@@ -22,7 +22,7 @@
 }
 
 .range:after {
-  content: "Clever";
+  content: "Aware";
   display: inline-block;
   position: absolute;
   margin-top: -22px;
@@ -50,16 +50,17 @@
 }
 
 .stats {
-  float: left;
+  float: right;
   width: 120px;
   font-size: 1em;
-  margin-left: 30px;
+  margin-right: 150px;
   border-left: 1px solid #dedede;
   padding-left: 30px;
 }
 
 .settings {
-  float: left;
+  float: right;
+  margin-right: 40px;
 }
 
 .forwarded .icon {
@@ -81,7 +82,8 @@
   font-size: 1em;
   float: right;
   width: 400px;
-  margin-left: 440px;
+  margin-left: 2px;
+  margin-top: 2px;
   position: absolute;
 }
 
