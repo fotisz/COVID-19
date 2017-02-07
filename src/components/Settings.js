@@ -47,11 +47,11 @@ export default function Settings({
         <div className={ styles.stats }>
           <div className={ styles.ignored }>
             <span className={ styles.icon }></span>
-            <span className={ styles.info }>Ignored (%{ ignored })</span>
+            <span className={ styles.info }>%{ ignored } Ignored - Aware</span>
           </div>
           <div className={ styles.forwarded }>
             <span className={ styles.icon }></span>
-            <span className={ styles.info }>Forwarded (%{ forwarded })</span>
+            <span className={ styles.info }>%{ forwarded } Forwarded - Unaware</span>
           </div>
         </div>
         ) }

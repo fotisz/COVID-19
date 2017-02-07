@@ -43,7 +43,7 @@
 .icon {
   width: 20px;
   height: 20px;
-  background: gray;
+  background: #fff;
   border-radius: 50%;
   display: inline-block;
 
@@ -68,7 +68,7 @@
 }
 
 .ignored .icon {
-  background: #a1d99b;
+  background: #e5e5e5;
 }
 
 .info {

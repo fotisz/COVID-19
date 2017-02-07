@@ -93,7 +93,9 @@ export default class Graph extends Component {
     const { layout, current } = this.state;
 
     return (
-      <svg width={ width } height={ height }>
+      <svg width={ width } height={ height } style={{
+        shapeRendering: 'geometricPrecision',
+      }}>
         { edges.map((edge, index) => 
           <Edge
             key={ index }

@@ -10,7 +10,7 @@ const PLAYING = 1;
 const INITIAL = 2;
 
 const COLORS = ['#ECA6E1','#C28CBE','#9B729C','#76597B','#55415B','#362A3C'];
-const FPS = 100;
+const FPS = 400;
 
 export {
   IDLE, FORWARDED, IGNORED,
