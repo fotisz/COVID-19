@@ -6,4 +6,4 @@ I tried to visualize how a disinformation becomes a post-truth by the people who
 
 Demo: <http://fatiherikli.github.io/post-truth>
 
-![Screenshot](http://fatiherikli.github.io/post-truth/static/example.png)
+![Screenshot](http://fatiherikli.github.io/post-truth/static/simulation.gif)
