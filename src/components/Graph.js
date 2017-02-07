@@ -45,7 +45,7 @@ export default class Graph extends Component {
         .force('link', forceLink().id(node => node.id))
         .force('charge', forceManyBody())
         .force('collide', forceCollide(() => 30).iterations(2))
-        .force('center', forceCenter(width / 2.5, height / 2))
+        .force('center', forceCenter(width / 2, height / 2))
     );
 
     (
