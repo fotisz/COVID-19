@@ -28,8 +28,8 @@ export default function Edge({
         y1={ padding(source.y, height, 30) } 
         x2={ padding(target.x, width, 7) }
         y2={ padding(target.y, height, 30) }
-        stroke={ isCurrent ? '#ccc' : '#eff3ff' }
-        strokeWidth={ isCurrent ? 0.9 : 0.5 }
+        stroke={ isCurrent ? 'gray' : 'gray' }
+        strokeWidth={ isCurrent ? 0.4 : 0.2 }
       />
     </g>
   );

@@ -25,7 +25,7 @@ export default function Node({
     <g key={ `${node.id}-Node` } transform={ transform }>
       <circle
         className={ classes }
-        r={ (current === node.id ? 12 : 4) + node.size }
+        r={ (current === node.id ? 12 : 6) + node.size }
         stroke={ 2 }
         onMouseOver={ onSetCurrent(node.id) }
         onMouseOut={ onSetCurrent(null) }
