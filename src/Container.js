@@ -38,7 +38,7 @@ export default class App extends Component {
     this.run = this.run.bind(this);
     this.handleReset = this.handleReset.bind(this);
     
-    const graph = randomgraph.ErdosRenyi.np(300, 0.006);
+    const graph = randomgraph.ErdosRenyi.np(300, 0.007);
     const avarageConsciousness = 0.2;
 
     this.state = {
