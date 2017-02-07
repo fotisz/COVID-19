@@ -44,7 +44,7 @@ export default class Graph extends Component {
       forceSimulation(nodes)
         .force('link', forceLink().id(node => node.id))
         .force('charge', forceManyBody())
-        .force('collide', forceCollide(() => 25).iterations(2))
+        .force('collide', forceCollide(() => 10).iterations(2))
         .force('center', forceCenter(width / 2, height / 2))
     );
 

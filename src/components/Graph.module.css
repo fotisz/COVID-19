@@ -1,9 +1,13 @@
 .forwarded {
   fill: #EC7B61;
+  stroke-width: 3px;
+  stroke: #d7684f;
 }
 
 .ignored {
   fill: #e5e5e5;
+  stroke: gray;
+  stroke-width: 3px;
 }
 
 .node {
