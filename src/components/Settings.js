@@ -57,7 +57,7 @@ export default function Settings({
         ) }
       <div className={ styles.controllers }>
         <div className={ styles.description }>
-          <p>Click on a node to spread disinformation.</p>
+          <p>Click on a node to spread COVID-19 in the network.</p>
           <input
             className={ styles.button }
             type={ 'submit' }
